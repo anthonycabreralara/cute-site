@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Cute Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body style="background-color: #f5f0ec;">
+    <div style="margin: auto; width: 100%; display: flex; justify-content: space-evenly; align-items: center;">
+        <img src="./icons/heart_icon_one.png">
+        <img src="./icons/circle_icon.png">
+        <img src="./icons/heart_icon_one.png">
+        <img src="./icons/circle_icon.png">
+        <img src="./icons/heart_icon_two.png">
+        <img src="./icons/circle_icon.png">
+        <img src="./icons/heart_icon_three.png">
+        <img src="./icons/circle_icon.png">
+        <img src="./icons/heart_icon_three.png">
+    </div>
+
+    <div class="label-container">
+        <div class="label purple"></div>
+        <div class="label pink"></div>
+    </div>
+
+
+
+</body>
+
+</html>
+
+<style>
+    .label-container {
+        position: relative;
+        width: 300px;
+        height: 120px;
+        margin: 40px auto;
+    }
+
+    .label {
+        position: absolute;
+        width: 280px;
+        height: 80px;
+        border: 2px solid #00000033;
+        box-shadow: 1px 1px 2px #ccc;
+    }
+
+    .purple {
+        background-color: #a88edc;
+        top: 0;
+        left: 20px;
+        z-index: 1;
+    }
+
+    .pink {
+        background-color: #f8bcd6;
+        top: 50px;
+        left: 0;
+        transform: rotate(-2deg);
+        z-index: 2;
+    }
+
+</style>
